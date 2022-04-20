@@ -23,7 +23,7 @@ st.text("                     ")
 st.sidebar.markdown("Done by: **Muhammad Wajeeh Arif**")
 st.sidebar.markdown("**Thankyou Baba G!**")
 st.sidebar.markdown('<a href="https://www.linkedin.com/in/muhammad-wajeeh-arif-923b7917a/">Contact me via  LinkedIn !</a>', unsafe_allow_html=True)
-model = tf.keras.models.load_model(r"https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1D0cEm3wAtekgHQwB6qGMvXI6ojU2W3q4%2F%3Ffbclid%3DIwAR0apf4yvO9LkabPgxnHlUseENGHqOD29bfl29DDXN4pXtIv_0GH56BXY6k&h=AT01WtL99_iw6EgRog-FrVPuLTicYp881smaMDY4H0IIy4His0llTIse5e93FF_EsWZpY38PRBqCxccCu9rU55VfRxxqr6bgr4hRYsVRsXYW7E9Wx1J9YwwtSY0e24wlzGDq7Q")
+model = tf.keras.models.load_model(r"Ship-shape.h5")
 def import_n_pred(image_data, model):
     size = (128,128)
     image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
