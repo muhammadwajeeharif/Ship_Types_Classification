@@ -19,3 +19,5 @@ There are 6252 images in train and 2680 images in test data. The five categories
 ## Deploy on Streamlit
 **Streamlit Link**
 https://share.streamlit.io/muhammadwajeeharif/ship_types_classification/main/my_app.py
+
+![Ship_Types_Classification](https://user-images.githubusercontent.com/72565549/164227947-b45abadd-5d8c-4b6c-9d1a-4849211123fe.gif)
