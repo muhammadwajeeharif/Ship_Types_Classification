@@ -15,4 +15,7 @@ There are 6252 images in train and 2680 images in test data. The five categories
 4- Cruise Ship
 
 5- Tanker Ship
+
 ## Deploy on Streamlit
+**Streamlit Link**
+https://share.streamlit.io/muhammadwajeeharif/ship_types_classification/main/my_app.py
